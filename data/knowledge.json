@@ -1,0 +1,332 @@
+[
+  {
+    "id": "TRAIN-001",
+    "category": "Training",
+    "title": "Weekly Training Schedule",
+    "content": "The club trains three times per week. Tuesday and Thursday sessions run from 6:30pm to 8:00pm at Lumen Park, Pitch 1. Saturday morning sessions run from 9:00am to 10:30am. All players are expected to attend at least two sessions per week to remain eligible for match selection. Sessions are cancelled in the event of a red weather warning — check the club WhatsApp group for updates."
+  },
+  {
+    "id": "TRAIN-002",
+    "category": "Training",
+    "title": "Training Session Structure",
+    "content": "Each training session follows a standard structure: 10 minutes warm-up and dynamic stretching, 20 minutes technical drills covering passing, receiving and first touch, 20 minutes tactical work or small-sided games, 15 minutes full-pitch positional drills, and 5 minutes cool-down and debrief. The head coach may adjust this depending on upcoming fixtures or specific development goals."
+  },
+  {
+    "id": "TRAIN-003",
+    "category": "Training",
+    "title": "Attendance Requirements",
+    "content": "Players must attend a minimum of 75% of scheduled training sessions per month to be considered for weekend match selection. If a player cannot attend, they must notify the coach or team manager at least 2 hours before the session via the club app or WhatsApp. Repeated unexplained absences will be reviewed by coaching staff and may result in a formal discussion with the player."
+  },
+  {
+    "id": "TRAIN-004",
+    "category": "Training",
+    "title": "Training Venue and Facilities",
+    "content": "All training takes place at Lumen Park, 14 Greenfield Road. The facility includes two full-size grass pitches, one 3G all-weather pitch, a covered warm-up area, and changing rooms with showers. Parking is available on site. Players must sign in at the reception hut before each session. The 3G pitch (Pitch 3) is used when the grass pitches are unfit."
+  },
+  {
+    "id": "TRAIN-005",
+    "category": "Training",
+    "title": "Pre-Season Training Programme",
+    "content": "Pre-season runs for six weeks from early July. The first two weeks focus on aerobic conditioning and injury prevention with long runs, interval sprints, and strength circuits. Weeks three and four introduce the ball with technical foundations. The final two weeks cover tactical shape, set pieces, and friendly matches. All registered players must complete pre-season to be eligible for the first competitive match."
+  },
+  {
+    "id": "TRAIN-006",
+    "category": "Training",
+    "title": "Fitness Testing Standards",
+    "content": "The club conducts fitness testing at the start of pre-season and mid-season. Tests include the Yo-Yo Intermittent Recovery Test (target: Level 17 for the senior squad), a 40-metre sprint test (target: under 5.5 seconds), and a standing long jump. Results are recorded by the sports science lead and used to set individual fitness plans. Players who fall significantly below targets are placed on a structured conditioning programme."
+  },
+  {
+    "id": "TRAIN-007",
+    "category": "Training",
+    "title": "Youth Training Sessions",
+    "content": "Youth players under 16 train on Monday and Wednesday evenings from 5:30pm to 6:45pm on Pitch 2. Sessions are run by the youth development coach and focus on technical skill, game understanding, and positive team culture. A parent or guardian must be present or have signed a drop-off consent form. Youth players are never left unsupervised. Safeguarding policies apply at all times."
+  },
+  {
+    "id": "TRAIN-008",
+    "category": "Training",
+    "title": "Goalkeeper Training",
+    "content": "Goalkeepers receive dedicated training every Tuesday from 6:00pm to 6:30pm before the main session, run by the goalkeeper coach. This covers shot-stopping, distribution, commanding the box, and positioning. Goalkeepers also participate in the full team session afterwards. Goalkeeper gloves and specialist training equipment are provided by the club."
+  },
+  {
+    "id": "DRILL-001",
+    "category": "Coaching",
+    "title": "Rondo Passing Drill",
+    "content": "The Rondo is a core possession warm-up drill. Set up in a 10x10 metre grid with 6 players on the outside and 2 defenders in the middle. Outside players keep possession with a maximum of 2 touches. Rotate defenders every 90 seconds. Progression: reduce to 1 touch. Key focus points are movement off the ball, quick decision-making, weight of pass, and communication. This drill also develops pressing triggers and spatial awareness."
+  },
+  {
+    "id": "DRILL-002",
+    "category": "Coaching",
+    "title": "High Press Drill",
+    "content": "Designed to train the high press as a unit. Split into two teams of 5 in a 30x20 metre zone. The pressing team must win the ball within 6 seconds of a designated trigger such as a back pass to the goalkeeper. If they fail to win it in time, they concede a point. Focus on compactness, pressure on the ball, and blocking passing lanes. Run for 3 sets of 4 minutes with 2-minute rest periods."
+  },
+  {
+    "id": "DRILL-003",
+    "category": "Coaching",
+    "title": "Crossing and Finishing Drill",
+    "content": "Set up wide channels on both sides of the penalty area. Two wide players deliver crosses alternately while 2 forwards and 1 midfielder make runs into the box. Vary delivery types: early cross, cut-back, driven low cross, and lofted ball. Focus points for crossers are timing, accuracy, and disguise. Focus points for attackers are movement, arrival timing, and quality of finish. Run 15 crosses per side then rotate roles."
+  },
+  {
+    "id": "DRILL-004",
+    "category": "Coaching",
+    "title": "Defensive Shape Drill",
+    "content": "Use a full pitch with two teams of 9. The defending team maintains a compact 4-4-1 shape as the attacking team builds from the back. The coach stops play regularly to correct spacing, communication, and defensive triggers. Key focus areas are distance between defensive and midfield lines (no more than 25 metres), wide players tucking in, and the striker leading the press. Use cones to mark reference positions."
+  },
+  {
+    "id": "DRILL-005",
+    "category": "Coaching",
+    "title": "Corner Kick Set Piece Routine",
+    "content": "The club runs two primary corner routines. Routine A is the near-post flick: two players position at the near post, one flicks on and one attacks the second post, with three players on the edge of the box for second balls. Routine B is the far-post delivery: ball sent to the far post with a central player peeling late. Both routines use a short corner option as a decoy. The corner taker signals the routine with hand signals. Practised every Thursday."
+  },
+  {
+    "id": "DRILL-006",
+    "category": "Coaching",
+    "title": "Counter-Attack Transition Drill",
+    "content": "Run in a 60x40 metre zone. When the defending team wins possession, a target player at the halfway line is activated and must receive the ball within 5 seconds. The goal is to get three players forward in the first phase of the counter. Progress by adding a recovering defender. Time each transition and track how often the counter reaches the final third. This drill builds the habit of quick vertical play after winning the ball."
+  },
+  {
+    "id": "DRILL-007",
+    "category": "Coaching",
+    "title": "1v1 Defending Drill",
+    "content": "Set up a 10x15 metre channel. An attacker starts at one end with the ball and the defender starts 2 metres behind. The attacker tries to dribble to the far end line. The defender must show the attacker to the outside, stay on their feet, and delay until help arrives. Progress by adding a second attacker entering after 3 seconds. Focus on body shape, patience, timing of the tackle, and not diving in. Run 5 repetitions per pair then rotate."
+  },
+  {
+    "id": "DRILL-008",
+    "category": "Coaching",
+    "title": "Positional Rondo 4-3-3 Shape",
+    "content": "A positional play drill to reinforce the 4-3-3 shape. Use a 60x40 metre pitch split into three vertical zones. Players must stay in their positional zones during build-up. The objective is to move the ball from the defensive zone to the attacking zone in 3 passes or fewer. Focus on width from wingers, depth from the striker, and the central midfielder as the link player. Reward teams that successfully switch play from one flank to the other."
+  },
+  {
+    "id": "PLAYER-001",
+    "category": "Players",
+    "title": "Club Captain — Jamie Thornton",
+    "content": "Jamie Thornton is the club captain and plays as a central midfielder. Age 27, joined the club in 2019. Known for his leadership, passing range, and ability to control tempo. Has made over 140 appearances and scored 34 goals. Holds a UEFA B coaching licence. Jamie leads the pre-match warm-up and is the primary liaison between players and coaching staff. He is the designated player to speak with the referee during matches."
+  },
+  {
+    "id": "PLAYER-002",
+    "category": "Players",
+    "title": "Vice Captain — Priya Okonkwo",
+    "content": "Priya Okonkwo is vice captain and plays as a central defender. Age 24, joined the club in 2021. Known for her aerial ability, composure under pressure, and vocal organisation of the backline. She also coordinates the club's community outreach programme. Priya covers captaincy duties when Jamie is absent and represents players at club committee meetings."
+  },
+  {
+    "id": "PLAYER-003",
+    "category": "Players",
+    "title": "Top Scorer — Marcus DaSilva",
+    "content": "Marcus DaSilva is the club's top scorer this season with 18 goals and 7 assists in 22 appearances. Plays as a centre forward, age 22. Known for pace, movement, and clinical finishing. Marcus is the designated penalty taker. He holds the club record for most goals in a single season (23 goals, set in 2023). His preferred foot is right but he scores regularly with his left foot too."
+  },
+  {
+    "id": "PLAYER-004",
+    "category": "Players",
+    "title": "Goalkeeper — Danny Walsh",
+    "content": "Danny Walsh is the first-choice goalkeeper. Age 29, with 11 clean sheets in 22 league appearances this season. Known for commanding the penalty area, strong distribution, and shot-stopping under pressure. Danny holds a goalkeeping coaching badge and assists with youth goalkeeper development. He suffered a minor shoulder strain in March and is currently being monitored by the physio before returning to full contact training."
+  },
+  {
+    "id": "PLAYER-005",
+    "category": "Players",
+    "title": "Squad Registration and Eligibility",
+    "content": "To play in competitive matches, all players must be registered with the league before the squad registration deadline. Registration requires a completed membership form, proof of age, a passport photo, and payment of the annual registration fee of 85 pounds. Players signed after the deadline may only play in friendlies until the next registration window. A maximum of 25 players can be registered per season."
+  },
+  {
+    "id": "PLAYER-006",
+    "category": "Players",
+    "title": "Player Code of Conduct",
+    "content": "All players must conduct themselves with respect towards teammates, opponents, officials, and supporters. The club operates a zero-tolerance policy on discrimination, abusive language, or violent conduct. A first offence results in a formal warning. A second offence may result in suspension from matches. A third offence may result in termination of club membership. Players are also responsible for representing the club appropriately on social media."
+  },
+  {
+    "id": "PLAYER-007",
+    "category": "Players",
+    "title": "Injury Reporting Procedure",
+    "content": "Any player who sustains an injury during training or a match must report it to the team manager or physio immediately. A brief injury report must be completed within 24 hours via the club app. Players must not return to training or match play until cleared by the club physio or a medical professional. The club physio holds a clinic every Thursday from 5:30pm to 6:30pm at Lumen Park. Contact the club on physiotherapy queries at physio@lumenfc.co.uk."
+  },
+  {
+    "id": "MATCH-001",
+    "category": "Fixtures",
+    "title": "Current League Position",
+    "content": "Lumen FC currently sits 3rd in the Regional Premier Division with 52 points from 22 matches. The record stands at 16 wins, 4 draws, and 2 losses. The team has scored 61 goals and conceded 28. The goal difference of plus 33 is the best in the division. The top two teams are separated from Lumen by 4 and 2 points respectively. With 8 matches remaining, the team is in strong contention for promotion."
+  },
+  {
+    "id": "MATCH-002",
+    "category": "Fixtures",
+    "title": "Recent Match Results",
+    "content": "Last 5 results: Won 3-1 vs Harfield United (home, goals: DaSilva x2, Thornton), Won 2-0 vs Crane Park FC (away, goals: DaSilva, Okonkwo), Drew 1-1 vs Westbury Athletic (home, goal: DaSilva), Won 4-2 vs Northgate Rovers (away, goals: DaSilva x2, Patel, own goal), Won 2-1 vs Redfield City (home, goals: Thornton, Mensah). The team is unbeaten in the last 9 league matches."
+  },
+  {
+    "id": "MATCH-003",
+    "category": "Fixtures",
+    "title": "Upcoming Fixtures",
+    "content": "Upcoming matches: Saturday 15 March vs Thorndale FC (away, kick-off 2:00pm), Saturday 22 March vs Eastfield United (home, kick-off 3:00pm), Saturday 29 March vs Redgate City (away, kick-off 2:00pm), Saturday 5 April vs Harfield United (home, kick-off 3:00pm). Home matches are played at Lumen Park. Players must arrive 60 minutes before kick-off. Match-day kit is provided by the club."
+  },
+  {
+    "id": "MATCH-004",
+    "category": "Fixtures",
+    "title": "Match Day Procedure",
+    "content": "Players must arrive at least 60 minutes before kick-off for home matches and 75 minutes before kick-off for away matches. The coach delivers the team talk 30 minutes before kick-off. Warm-up begins 20 minutes before kick-off. Players must wear the official club kit provided. Substitutes must be warmed up and ready to enter at any time. After the match, players are expected to attend a short debrief before leaving the ground."
+  },
+  {
+    "id": "MATCH-005",
+    "category": "Fixtures",
+    "title": "Cup Competitions",
+    "content": "Lumen FC competes in three cup competitions this season: the Regional FA Cup (currently in the quarter-finals), the County League Cup (eliminated in the second round), and the Veterans Cup for players over 35 (semi-finals to be scheduled). The FA Cup quarter-final is scheduled for Sunday 30 March at home, kick-off 2:00pm. Cup matches may go to extra time and penalties if level after 90 minutes."
+  },
+  {
+    "id": "MATCH-006",
+    "category": "Fixtures",
+    "title": "Match Selection Policy",
+    "content": "The head coach selects the starting 11 and substitutes based on training performance, fitness, attitude, and tactical requirements for each opponent. The squad list for each match is announced on Thursday evening after training. Players not selected are encouraged to remain engaged and support the team from the bench or stands. The coach will discuss selection decisions with players privately on request after the match."
+  },
+  {
+    "id": "POLICY-001",
+    "category": "Policies",
+    "title": "Club Membership Fees",
+    "content": "Annual membership fees are 180 pounds for senior players (18 and over), 95 pounds for youth players (under 18), and 220 pounds for player-coaches. Fees cover training, kit, league registration, and use of club facilities. Fees are due by 1 August each year. A payment plan (3 instalments) is available on request. Players with outstanding fees after 60 days may be suspended from matches until the balance is cleared. Hardship exemptions can be discussed confidentially with the club secretary."
+  },
+  {
+    "id": "POLICY-002",
+    "category": "Policies",
+    "title": "Kit and Equipment Policy",
+    "content": "The club provides a home kit (green and white), an away kit (all black), and a training bib set for all registered players. Kits must be returned at the end of the season. Players are responsible for their own boots, shin pads, and goalkeeper gloves. Lost or damaged kit must be reported to the kit manager and may incur a replacement cost. Players must not wear the official club kit for personal activities without permission."
+  },
+  {
+    "id": "POLICY-003",
+    "category": "Policies",
+    "title": "Safeguarding Policy",
+    "content": "Lumen FC is committed to the safety and wellbeing of all players, particularly children and young people. The club's designated safeguarding officer is Karen Lewis, contactable at safeguarding@lumenfc.co.uk. All coaches and staff working with youth players hold a valid DBS check. Any safeguarding concern must be reported to Karen immediately. The club follows FA safeguarding guidelines at all times. Concerns about a child's welfare should never be ignored."
+  },
+  {
+    "id": "POLICY-004",
+    "category": "Policies",
+    "title": "Social Media Policy",
+    "content": "Players are expected to represent the club positively on all social media platforms. Do not post negative comments about teammates, opponents, officials, or the club. Do not share team tactics, line-ups, or injury information before it has been officially announced. The club's official social media accounts are managed by the media officer. Players wishing to post match footage or club photos must seek permission. Breaches of this policy are treated as conduct issues."
+  },
+  {
+    "id": "POLICY-005",
+    "category": "Policies",
+    "title": "Complaints and Grievance Procedure",
+    "content": "Any player with a complaint or grievance should first attempt to resolve it informally with the relevant coach or manager. If unresolved, a formal written complaint can be submitted to the club secretary at secretary@lumenfc.co.uk. All complaints are acknowledged within 5 working days and investigated within 21 days. Players have the right to be accompanied by a club representative at any formal meeting. Appeals can be escalated to the club committee."
+  },
+  {
+    "id": "POLICY-006",
+    "category": "Policies",
+    "title": "Anti-Doping Policy",
+    "content": "Lumen FC operates in full compliance with the FA anti-doping regulations. Players must not take any banned substance as defined by the World Anti-Doping Agency. If you are prescribed medication by a doctor, check whether it appears on the prohibited list before taking it. Therapeutic Use Exemptions can be applied for in advance. Positive drug tests result in immediate suspension and referral to the FA. Players unsure about a medication should contact the club physio before use."
+  },
+  {
+    "id": "POLICY-007",
+    "category": "Policies",
+    "title": "Equal Opportunities and Inclusion",
+    "content": "Lumen FC is an inclusive club and welcomes players regardless of age, gender, ethnicity, religion, sexual orientation, disability, or socioeconomic background. We are committed to creating a safe and respectful environment for everyone. Discrimination of any kind will result in disciplinary action and may be reported to the relevant football authority. The club has an equality officer who can be contacted at equality@lumenfc.co.uk."
+  },
+  {
+    "id": "PROG-001",
+    "category": "Progress",
+    "title": "Player Progress Tracking System",
+    "content": "The club records individual player progress across four categories: Fitness (based on test scores and conditioning), Technical (based on coach assessments during drills), Attendance (percentage of sessions attended), and Match Performance (based on coach ratings after each appearance). Progress records are updated monthly and reviewed in one-to-one meetings between players and coaching staff. Players can request access to their own records at any time through the club app."
+  },
+  {
+    "id": "PROG-002",
+    "category": "Progress",
+    "title": "Monthly Player Review Meetings",
+    "content": "The coaching staff conduct monthly individual review meetings with each player throughout the season. Meetings last approximately 15 minutes and cover recent performance, personal development targets, fitness levels, and any concerns. Players are encouraged to raise their own goals and ask questions about selection. Review meetings are scheduled during the week of the last training session of each month. Players will be contacted individually to arrange a time."
+  },
+  {
+    "id": "PROG-003",
+    "category": "Progress",
+    "title": "Development Pathways for Young Players",
+    "content": "Youth players aged 14 to 17 who demonstrate exceptional progress may be invited to train with the senior development squad on a trial basis. Selection for the pathway is based on technical ability, attitude, coachability, and physical readiness. Players on the development pathway continue their youth training commitments alongside two senior sessions per month. Parents are involved in all pathway discussions. The aim is to develop players capable of making their senior debut by age 18."
+  },
+  {
+    "id": "PROG-004",
+    "category": "Progress",
+    "title": "Season Goals and Performance Targets",
+    "content": "The club's collective performance targets for this season are: finish in the top 2 of the Regional Premier Division to achieve promotion, reach the FA Cup semi-final, achieve an average training attendance rate above 80% across the squad, reduce goals conceded per game to below 1.2, and improve the average Yo-Yo test score across the senior squad by one level compared to last season. Individual player targets are set in the pre-season review meeting."
+  },
+  {
+    "id": "PROG-005",
+    "category": "Progress",
+    "title": "End of Season Awards",
+    "content": "The club holds an end-of-season awards evening each May. Awards presented include: Players Player of the Season (voted by squad), Managers Player of the Season (selected by coaching staff), Top Scorer, Most Improved Player, Best Young Player (under 21), and Best Attendance. The evening also includes presentation of season statistics, a highlight reel, and recognition of volunteers and staff. Tickets are available to players, families, and supporters."
+  },
+  {
+    "id": "FAQ-001",
+    "category": "FAQ",
+    "title": "How do I join the club?",
+    "content": "To join Lumen FC, attend one of our open trial sessions held at the start of pre-season in July or during January. Alternatively, contact the club secretary at secretary@lumenfc.co.uk to arrange a private trial. If successful, you will be offered a registration form, asked to pay the membership fee, and added to the squad WhatsApp group. Bring your own boots and shin pads to trials. The club provides bibs. Youth player enquiries should be directed to youthsec@lumenfc.co.uk."
+  },
+  {
+    "id": "FAQ-002",
+    "category": "FAQ",
+    "title": "What do I do if I am injured?",
+    "content": "If you are injured during training or a match, inform the nearest coach or first aider immediately. A first aid kit is always available at Lumen Park. Complete an injury report in the club app within 24 hours. To return to training, you must be cleared by the club physio. The physio clinic runs every Thursday from 5:30pm. Do not rush a return to play — the club prioritises long-term player health over short-term availability. Contact physio@lumenfc.co.uk for advice."
+  },
+  {
+    "id": "FAQ-003",
+    "category": "FAQ",
+    "title": "How is the team selected for matches?",
+    "content": "The head coach selects the squad and starting 11 based on training performance, match fitness, tactical requirements for the upcoming opponent, and overall attitude. Attendance and effort in training are significant factors. The squad list is announced on Thursday evening after training via the club app. If you are not selected and want feedback, speak to the coach privately after the following training session. Selection decisions are always made in the best interests of the team."
+  },
+  {
+    "id": "FAQ-004",
+    "category": "FAQ",
+    "title": "What happens if training is cancelled?",
+    "content": "Training cancellations due to bad weather, pitch closures, or other reasons are communicated as early as possible via the club WhatsApp group and the club app. If you have not received a message 30 minutes before a session is due to start, assume the session is going ahead. In the event of a red weather warning, all sessions are automatically cancelled. If a session is cancelled at short notice due to a pitch issue, it may be rescheduled later in the week."
+  },
+  {
+    "id": "FAQ-005",
+    "category": "FAQ",
+    "title": "How do I contact the coaching staff?",
+    "content": "The head coach can be contacted via the club app messaging system or by email at headcoach@lumenfc.co.uk. For urgent match-day matters, use the club WhatsApp group. The youth development coach can be reached at youthcoach@lumenfc.co.uk. The goalkeeper coach is available before Tuesday training sessions or via the app. For administrative matters such as fees, registration, and kit, contact the club secretary at secretary@lumenfc.co.uk."
+  },
+  {
+    "id": "FAQ-006",
+    "category": "FAQ",
+    "title": "Can I bring guests to watch training?",
+    "content": "Supporters and family members are welcome to watch training sessions from the designated viewing area along the side of Pitch 1. Access to the pitch itself is restricted to registered players and coaching staff. Photography and video recording of youth sessions is only permitted by parents and guardians of players in that session, in line with our safeguarding policy. Guest visitors must sign in at the reception hut on arrival."
+  },
+  {
+    "id": "FAQ-007",
+    "category": "FAQ",
+    "title": "What is the club's promotion situation?",
+    "content": "Lumen FC is currently 3rd in the Regional Premier Division and is in strong contention for promotion. The top two clubs are promoted automatically at the end of the season. A third promotion place is available via a play-off between teams finishing 3rd and 4th. With 8 games remaining, the team needs to win at least 6 and hope results go in our favour to secure automatic promotion. The play-off route is also very much achievable given the current form."
+  },
+  {
+    "id": "FAQ-008",
+    "category": "FAQ",
+    "title": "Where can I see match statistics?",
+    "content": "Full match statistics including goals, assists, clean sheets, yellow and red cards, and player ratings are published on the club website at www.lumenfc.co.uk/stats within 48 hours of each match. Season totals are updated weekly. Individual player stats are also viewable in the club app under the My Profile section. Squad-wide statistics and league table standings are available on the Regional Premier Division website."
+  },
+  {
+    "id": "FAQ-009",
+    "category": "FAQ",
+    "title": "What should I do if I witness or experience discrimination?",
+    "content": "Lumen FC has a zero-tolerance policy on discrimination of any kind. If you witness or experience discrimination, report it to the club's equality officer at equality@lumenfc.co.uk or speak directly to the club secretary or any committee member. All reports are treated confidentially and investigated promptly. You may also report incidents directly to the FA or county FA. Do not feel pressure to ignore or overlook discriminatory behaviour — reporting it protects the whole club community."
+  },
+  {
+    "id": "CLUB-001",
+    "category": "Club Info",
+    "title": "Club History and Background",
+    "content": "Lumen FC was founded in 1987 by a group of local residents in the Greenfield area. The club started in the Sunday local league and grew steadily over the following decades. Major milestones include winning the County League Cup in 1999, 2008, and 2017, gaining entry to the Regional Premier Division in 2015, and reaching the FA Cup regional final in 2021. The club currently has approximately 180 registered members across senior and youth teams."
+  },
+  {
+    "id": "CLUB-002",
+    "category": "Club Info",
+    "title": "Club Values and Mission",
+    "content": "Lumen FC is built on four core values: Respect — treating everyone in football with dignity, Development — helping every player reach their potential, Community — being a positive force in the local area, and Integrity — playing the game the right way on and off the pitch. The club's mission is to provide a high-quality football environment for all ages and abilities, from youth development to competitive senior football, while remaining rooted in the local community."
+  },
+  {
+    "id": "CLUB-003",
+    "category": "Club Info",
+    "title": "Volunteering and Committee Roles",
+    "content": "Lumen FC is run largely by volunteers. Current committee roles include Club Chairman, Secretary, Treasurer, Welfare and Safeguarding Officer, Equality Officer, Media and Communications Officer, Kit Manager, and Pitch and Facilities Manager. Volunteers also assist with matchday duties, fundraising, and social events. If you are interested in volunteering or joining the committee, contact the secretary at secretary@lumenfc.co.uk. The AGM is held each June and is open to all members."
+  },
+  {
+    "id": "CLUB-004",
+    "category": "Club Info",
+    "title": "Club Contact Details",
+    "content": "Lumen FC contact details: General enquiries — info@lumenfc.co.uk, Secretary — secretary@lumenfc.co.uk, Head coach — headcoach@lumenfc.co.uk, Youth section — youthsec@lumenfc.co.uk, Physio — physio@lumenfc.co.uk, Safeguarding — safeguarding@lumenfc.co.uk, Equality — equality@lumenfc.co.uk. The club address is Lumen Park, 14 Greenfield Road. The club website is www.lumenfc.co.uk. The club office is open on Tuesday and Thursday evenings during training."
+  },
+  {
+    "id": "CLUB-005",
+    "category": "Club Info",
+    "title": "Sponsorship and Fundraising",
+    "content": "Lumen FC relies on sponsorship and fundraising to maintain facilities, subsidise kit costs, and support youth development. The club's current main sponsor is Greenfield Building Services whose logo appears on the home kit. Additional sponsorship opportunities are available for local businesses including shirt sleeve sponsorship, pitch-side advertising boards, and match ball sponsorship. For sponsorship enquiries contact the secretary. Fundraising events include an annual golf day, quiz night, and end-of-season dinner."
+  }
+]

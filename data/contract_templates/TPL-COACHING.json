@@ -1,0 +1,5 @@
+{
+  "id": "TPL-COACHING",
+  "name": "Coaching / Volunteer Agreement",
+  "content": "COACHING & VOLUNTEER AGREEMENT\n\nClub: Lumen FC\nDate: {{date}}\n\nVolunteer Details\nName: {{player_name}}\nRole: {{position}}\nStart Date: {{join_date}}\n\nResponsibilities\n1. {{player_name}} agrees to fulfil the role of {{position}} for Lumen FC.\n2. This is a voluntary unpaid role unless otherwise stated.\n3. The volunteer agrees to maintain a valid DBS check throughout their tenure.\n4. The volunteer agrees to complete relevant FA coaching qualifications as required.\n5. The volunteer agrees to uphold the club safeguarding and conduct policies.\n\nDuration\nThis agreement covers the {{season}} season and is subject to annual review.\n\nSignatures\nVolunteer: _________________________ Date: _____________\nClub Chairman: _________________________ Date: _____________\n"
+}

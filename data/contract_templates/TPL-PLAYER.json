@@ -1,0 +1,5 @@
+{
+  "id": "TPL-PLAYER",
+  "name": "Player Registration Contract",
+  "content": "PLAYER REGISTRATION AGREEMENT\n\nClub: Lumen FC\nDate: {{date}}\n\nPlayer Details\nName: {{player_name}}\nPosition: {{position}}\nSquad Number: {{squad_no}}\nDate of Birth: {{dob}}\n\nTerms\n1. The player agrees to register exclusively with Lumen FC for the season {{season}}.\n2. The player agrees to attend a minimum of 60% of all scheduled training sessions.\n3. The player agrees to abide by the Lumen FC Code of Conduct at all times.\n4. The player agrees to pay the registration fee of {{fee}} as agreed.\n5. The club agrees to provide the player with access to all training facilities and coaching.\n6. Either party may terminate this agreement with 14 days written notice.\n\nSignatures\nPlayer: _________________________ Date: _____________\nClub Representative: _________________________ Date: _____________\n"
+}

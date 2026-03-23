@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lumen FootBot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= AUTH OVERLAY ================= -->
+<div id="authOverlay" class="auth-overlay">
+  <div class="auth-card">
+    <h1>⚡ Lumen</h1>
+    <p class="subtitle" id="authTitle">Login to FootBot</p>
+    <div class="role-toggle">
+      <button class="active" data-role="user">User</button>
+      <button data-role="admin">Admin</button>
+    </div>
+    <form id="authForm">
+      <input id="nameField" placeholder="Full name" hidden>
+      <input id="emailField" type="email" placeholder="Email address" required>
+      <div class="password-field">
+        <input id="passwordField" type="password" placeholder="Password" required>
+        <span onclick="togglePassword()">👁</span>
+      </div>
+      <div id="strengthWrap" class="strength" hidden><div id="strengthBar"></div></div>
+      <small id="strengthText" hidden>Password strength</small>
+      <button class="primary-btn" id="authBtn">Login</button>
+    </form>
+    <p class="switch">
+      <span id="switchText">Don't have an account?</span>
+      <a href="#" id="switchLink" onclick="toggleAuth()">Sign up</a>
+    </p>
+  </div>
+</div>
+
+<!-- ================= APP ================= -->
+<div class="background-text">LUMEN</div>
+<div class="app" id="footbotApp">
+
+  <header class="header">
+    <div class="brand">
+      <div class="logo">⚡</div>
+      <div class="brand-text">
+        <h1>Lumen FC</h1>
+        <span>Hypersport Data Platform</span>
+      </div>
+    </div>
+    <div class="header-status">
+      <div class="status-dot">SYSTEM ONLINE</div>
+      <div class="status-dot">LOCAL AI ACTIVE</div>
+      <button class="logout-btn" onclick="logout()">[ EXIT ]</button>
+    </div>
+  </header>
+
+  <!-- ── SCROLLABLE BODY ── -->
+  <div class="app-body">
+
+  <!-- ── KNOWLEDGE BASE ── -->
+  <section class="admin-panel" id="adminPanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>Knowledge Base Manager</h2>
+        <p>Manage entries in <code>data/knowledge.json</code>. The chatbot answers from this data.</p>
+      </div>
+      <span class="admin-badge">Admin</span>
+    </div>
+    <div class="admin-form">
+      <input id="kbId" placeholder="Entry ID (e.g. TRN-002)">
+      <select id="kbCategory">
+        <option>Training</option><option>Coaching</option><option>Fixtures</option>
+        <option>Players</option><option>Policies</option><option>FAQ</option>
+        <option>Progress</option><option>Fitness</option><option>Club Info</option>
+      </select>
+      <input id="kbTitle" placeholder="Title (what users might ask)">
+      <input id="kbContent" placeholder="Content (the answer / info to store)">
+      <button id="kbSaveBtn">Save Entry</button>
+    </div>
+    <div class="admin-list">
+      <div class="admin-list__title">Existing Entries</div>
+      <div id="kbList"></div>
+    </div>
+  </section>
+
+  <!-- ── PROGRESS RECORDS ── -->
+  <section class="admin-panel progress-panel" id="progressPanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>Progress Records</h2>
+        <p>Log attendance, training outcomes, and member activity in <code>data/progress.json</code>.</p>
+      </div>
+      <span class="admin-badge admin-badge--progress">Progress</span>
+    </div>
+    <div class="progress-form">
+      <input  id="prgId"     placeholder="Record ID (e.g. PRG-001)">
+      <input  id="prgDate"   type="date">
+      <input  id="prgMember" placeholder="Member name">
+      <select id="prgCategory">
+        <option>Training</option><option>Coaching</option><option>Fixtures</option>
+        <option>Players</option><option>Policies</option><option>FAQ</option>
+        <option>Progress</option><option>Fitness</option><option>Club Info</option>
+      </select>
+      <input  id="prgValue" placeholder="Value (e.g. Present, 5km, Goal)">
+      <input  id="prgNotes" placeholder="Notes (optional)">
+      <button id="prgSaveBtn">Add Record</button>
+    </div>
+    <div class="admin-list">
+      <div class="admin-list__title">Existing Records</div>
+      <div id="prgList"></div>
+    </div>
+  </section>
+
+  <!-- ── PLAYER DATABASE ── -->
+  <section class="admin-panel" id="playerPanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>Player Database</h2>
+        <p>Manage squad registrations, profiles, and membership status.</p>
+      </div>
+      <span class="admin-badge" style="background:rgba(79,156,255,0.15);color:#7ec8ff">Players</span>
+    </div>
+    <div class="admin-form">
+      <input id="plyrId"       placeholder="Player ID (e.g. PLY-001)">
+      <input id="plyrName"     placeholder="Full name *">
+      <input id="plyrPosition" placeholder="Position (e.g. Midfielder)">
+      <input id="plyrSquadNo"  placeholder="Squad number" type="number">
+      <input id="plyrJoined"   placeholder="Date joined" type="date">
+      <input id="plyrEmail"    placeholder="Email address" type="email">
+      <select id="plyrStatus">
+        <option value="active">Active</option>
+        <option value="inactive">Inactive</option>
+        <option value="injured">Injured</option>
+        <option value="suspended">Suspended</option>
+      </select>
+      <button onclick="addPlayer()">Add Player</button>
+    </div>
+    <div class="admin-list">
+      <div class="admin-list__title">Registered Players</div>
+      <div id="playerList"></div>
+    </div>
+  </section>
+
+  <!-- ── PERFORMANCE TRACKER ── -->
+  <section class="admin-panel" id="performancePanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>Performance Tracker</h2>
+        <p>Log match and training performance records per player per season.</p>
+      </div>
+      <span class="admin-badge" style="background:rgba(255,200,50,0.15);color:#ffc832">Performance</span>
+    </div>
+    <div class="admin-form">
+      <input id="perfId"       placeholder="Record ID (e.g. PRF-001)">
+      <input id="perfPlayerId" placeholder="Player ID (e.g. PLY-001)">
+      <input id="perfSeason"   placeholder="Season (e.g. 2024-25)">
+      <input id="perfDate"     placeholder="Match date" type="date">
+      <input id="perfOpponent" placeholder="Opponent">
+      <select id="perfType">
+        <option value="league">League</option>
+        <option value="cup">Cup</option>
+        <option value="friendly">Friendly</option>
+        <option value="training">Training</option>
+      </select>
+      <input id="perfGoals"   placeholder="Goals"   type="number" value="0">
+      <input id="perfAssists" placeholder="Assists" type="number" value="0">
+      <input id="perfMinutes" placeholder="Minutes played" type="number" value="90">
+      <input id="perfRating"  placeholder="Rating (1–10)" type="number" step="0.1">
+      <input id="perfFitness" placeholder="Fitness score" type="number" step="0.1">
+      <input id="perfNotes"   placeholder="Notes (optional)">
+      <button onclick="addPerformance()">Add Record</button>
+    </div>
+    <div class="admin-form" style="margin-top:12px">
+      <input id="perfSeasonFilter" placeholder="Filter by season (e.g. 2024-25)">
+      <button onclick="loadPerformance()">Filter</button>
+    </div>
+    <div class="admin-list">
+      <div class="admin-list__title">Performance Records</div>
+      <div id="perfList"></div>
+    </div>
+  </section>
+
+  <!-- ── COMPARE ── -->
+  <section class="admin-panel" id="comparePanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>Player Comparison</h2>
+        <p>Compare two players head-to-head, or one player across two different seasons.</p>
+      </div>
+      <span class="admin-badge" style="background:rgba(255,100,100,0.15);color:#ff8080">Compare</span>
+    </div>
+    <div class="admin-form">
+      <input id="cmpPlayerA" placeholder="Player A — ID (e.g. PLY-001)">
+      <input id="cmpSeasonA" placeholder="Player A — Season (e.g. 2024-25)">
+      <input id="cmpPlayerB" placeholder="Player B — ID (leave blank to compare seasons)">
+      <input id="cmpSeasonB" placeholder="Player B — Season (or Season 2 for same player)">
+      <button onclick="runCompare()">Run Comparison</button>
+    </div>
+    <div id="compareOutput" style="margin-top:16px"></div>
+  </section>
+
+  <!-- ── MEMBERSHIPS ── -->
+  <section class="admin-panel" id="membershipPanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>Membership Manager</h2>
+        <p>Add and manage player memberships, fees, and expiry dates.</p>
+      </div>
+      <span class="admin-badge" style="background:rgba(168,85,247,0.2);color:#c084fc">Memberships</span>
+    </div>
+    <div class="admin-form">
+      <input id="memId"       placeholder="Membership ID (e.g. MEM-003)">
+      <input id="memPlayerId" placeholder="Player ID (e.g. PLY-001)">
+      <input id="memSeason"   placeholder="Season (e.g. 2024-25)">
+      <select id="memType">
+        <option value="senior">Senior</option>
+        <option value="youth">Youth</option>
+        <option value="associate">Associate</option>
+        <option value="volunteer">Volunteer</option>
+      </select>
+      <input id="memFeeDue"    placeholder="Fee due (£)" type="number">
+      <input id="memFeePaid"   placeholder="Fee paid (£)" type="number">
+      <input id="memJoinDate"  placeholder="Join date" type="date">
+      <input id="memExpiry"    placeholder="Expiry date" type="date">
+      <select id="memStatus">
+        <option value="active">Active</option>
+        <option value="expired">Expired</option>
+        <option value="suspended">Suspended</option>
+      </select>
+      <input id="memNotes" placeholder="Notes (optional)">
+      <button onclick="addMembership()">Add Membership</button>
+    </div>
+    <div class="admin-list">
+      <div class="admin-list__title">Current Memberships</div>
+      <div id="membershipList"></div>
+    </div>
+  </section>
+
+  <!-- ── CONTRACTS ── -->
+  <section class="admin-panel" id="contractPanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>Contract Generator</h2>
+        <p>Generate player contracts and agreements from templates. Fully local — no external services.</p>
+      </div>
+      <span class="admin-badge" style="background:rgba(200,220,200,0.12);color:#c8ddd5">Contracts</span>
+    </div>
+    <div class="admin-form">
+      <select id="contractTemplate"></select>
+      <input id="contractPlayerId" placeholder="Player ID (auto-fills player details)">
+      <input id="contractSeason"   placeholder="Season (e.g. 2024-25)">
+      <input id="contractFee"      placeholder="Fee amount (e.g. 50)">
+      <button onclick="generateContract()">Generate Contract</button>
+    </div>
+    <div id="contractOutput" style="margin-top:16px"></div>
+    <div class="admin-list" style="margin-top:20px">
+      <div class="admin-list__title">Saved Contracts</div>
+      <div id="contractList"></div>
+    </div>
+  </section>
+
+  <!-- ── ANALYTICS ── -->
+  <section class="admin-panel" id="analyticsPanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>Analytics Dashboard</h2>
+        <p>Scoring trends, attendance rates, and chatbot usage insights.</p>
+      </div>
+      <span class="admin-badge" style="background:rgba(79,156,255,0.15);color:#7ec8ff">Analytics</span>
+    </div>
+    <div class="admin-form">
+      <input id="analyticsSeason" placeholder="Season (e.g. 2024-25)" value="2024-25">
+      <button onclick="loadAnalytics()">Refresh</button>
+    </div>
+    <div id="analyticsOutput" style="margin-top:16px"></div>
+  </section>
+
+
+  <!-- ── AI: NATURAL LANGUAGE LOG ── -->
+  <section class="admin-panel" id="aiLogPanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>🤖 AI Match Logger</h2>
+        <p>Describe a match in plain English — the local AI extracts and logs performance data automatically.</p>
+      </div>
+      <span class="admin-badge" style="background:rgba(25,195,125,0.2);color:#19c37d">Local AI</span>
+    </div>
+    <div class="admin-form">
+      <input id="aiMatchSeason" placeholder="Season (e.g. 2024-25)" value="2024-25" style="flex:0 1 160px">
+      <button onclick="aiLogMatch()">Log Match</button>
+    </div>
+    <textarea id="aiMatchDesc" placeholder='Example: Jamie scored twice and got an assist against Riverside on Saturday. Sam had a solid game with one assist, played 85 minutes. Both rated around 8 out of 10.' rows="4" style="width:100%;padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.1);background:#0f1f18;color:#fff;font-size:.88rem;font-family:inherit;resize:vertical;box-sizing:border-box;margin-bottom:12px"></textarea>
+    <div id="aiLogOutput"></div>
+  </section>
+
+  <!-- ── AI: LINEUP SUGGESTER ── -->
+  <section class="admin-panel" id="aiLineupPanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>🧠 AI Lineup Suggester</h2>
+        <p>The local AI analyses form, fitness, and availability to suggest the best starting lineup.</p>
+      </div>
+      <span class="admin-badge" style="background:rgba(79,156,255,0.2);color:#7ec8ff">Local AI</span>
+    </div>
+    <div class="admin-form">
+      <input id="aiLineupSeason"    placeholder="Season (e.g. 2024-25)" value="2024-25">
+      <input id="aiLineupFormation" placeholder="Formation (e.g. 4-3-3)" value="4-3-3">
+      <input id="aiLineupNotes"     placeholder="Extra notes (optional)">
+      <button onclick="aiSuggestLineup()">Suggest Lineup</button>
+    </div>
+    <div id="aiLineupOutput" style="margin-top:8px"></div>
+  </section>
+
+  <!-- ── AI: CONTRACT INTELLIGENCE ── -->
+  <section class="admin-panel" id="aiContractPanel" hidden>
+    <div class="admin-panel__head">
+      <div>
+        <h2>📋 AI Contract Intelligence</h2>
+        <p>Scans expiring memberships and generates renewal recommendations based on player performance.</p>
+      </div>
+      <span class="admin-badge" style="background:rgba(255,200,50,0.2);color:#ffc832">Local AI</span>
+    </div>
+    <div class="admin-form">
+      <input id="aiContractDays"   placeholder="Days ahead to scan" value="60" type="number" style="flex:0 1 180px">
+      <input id="aiContractSeason" placeholder="Season" value="2024-25" style="flex:0 1 160px">
+      <button onclick="aiContractIntelligence()">Scan Contracts</button>
+    </div>
+    <div id="aiContractOutput" style="margin-top:8px"></div>
+  </section>
+
+  <!-- ── CHAT ── -->
+  <main class="chat-area" id="chatBox"></main>
+
+  </div><!-- end app-body -->
+
+  <footer class="input-area">
+    <input id="userInput" placeholder="Ask FootBot anything about Lumen FC…">
+    <button id="sendBtn">➤</button>
+  </footer>
+
+</div> 
+<script src="script.js"></script>
+</body>
+</html>

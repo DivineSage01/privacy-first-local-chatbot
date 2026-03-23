@@ -1,0 +1,5 @@
+{
+  "id": "TPL-MEMBERSHIP",
+  "name": "Annual Membership Agreement",
+  "content": "ANNUAL MEMBERSHIP AGREEMENT\n\nClub: Lumen FC\nSeason: {{season}}\nDate: {{date}}\n\nMember Details\nName: {{player_name}}\nEmail: {{email}}\nMembership Type: {{membership_type}}\n\nFinancial Terms\nAnnual Fee: \u00a3{{fee}}\nPayment Due: {{payment_date}}\nPayment Method: {{payment_method}}\n\nBenefits\n- Full access to training facilities at Lumen Park\n- Matchday squad eligibility\n- Access to club gym\n- Club physiotherapy service\n- Club newsletter and communications\n\nI agree to the terms of membership and the Lumen FC Code of Conduct.\n\nMember Signature: _________________________ Date: _____________\nSecretary Signature: _________________________ Date: _____________\n"
+}
